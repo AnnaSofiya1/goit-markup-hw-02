@@ -22,20 +22,17 @@ button{
 .link-top :focus{
 color: #404BBF;
 }
+.logo-top{
+   color: #4d5ae5;
+   font-family: Raleway, sans-serif;
+   font-weight: 700;
+   text-transform: uppercase;
 
-.logo-web{
-    color: #4D5AE5;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-decoration: none;
 }
+
 .logo-studio {
-    color: #2E2F42;
-    font-family: Raleway;
+    color:#2e2f42;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -68,7 +65,7 @@ color: #404BBF;
     letter-spacing: 0.02em;
 }
 .contact-info {
-    color: #434455;
+    color:#434455;
     font-style: normal;
     font-size: 16px;
     font-weight: 400;
@@ -92,16 +89,10 @@ color: #404BBF;
     font-weight: 700;
     line-height: 1.07;
     /* 107.143% */
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
 .button {
-    display: inline-flex;
-    padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;
-    border-radius: 4px;
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: #FFF;
             
      /* Button Text */
@@ -111,7 +102,14 @@ color: #404BBF;
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.04em;
+
 }
+.button:hover
+.button:focus{
+    background-color: #404bbf;
+} 
+
+
 .content-info {
     background: #FFF;
 }
@@ -220,21 +218,9 @@ color: #404BBF;
     /* 120% */
     letter-spacing: 0.02em;
 }
-.footer-info {
-    background: #2E2F42;
-}
-.bottom-web {
-    color: #4D5AE5;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    /* 116.667% */
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
+
 .bottom-studio {
-    color: #F4F4FD;
+    color: #f4f4fd;
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
@@ -242,6 +228,17 @@ color: #404BBF;
     /* 116.667% */
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    
+}
+.footer-info {
+    color: var(--IRIS, #4D5AE5);
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    background: #2E2F42;
 }
 .content-text-bottom {
     color: #F4F4FD;
@@ -252,9 +249,8 @@ color: #404BBF;
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.02em;
+    
 }
 .list-item {
-    border-radius: 0px 0px 4px 4px;
         background: var(--WHITE, #FFF);
-        box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     }
